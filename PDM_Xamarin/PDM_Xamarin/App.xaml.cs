@@ -13,7 +13,7 @@ namespace PDM_Xamarin
 		{
 			InitializeComponent();
 
-			MainPage = new PDM_Xamarin.MainPage();
+			MainPage = new NavigationPage(new PDM_Xamarin.MainPage());
 		}
 
 		protected override void OnStart ()

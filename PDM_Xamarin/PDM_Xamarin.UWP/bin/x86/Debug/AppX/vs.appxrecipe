@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-18T17:13:41.961</Modified>
+      <Modified>2018-04-18T17:35:17.612</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\bin\x86\Debug\PDM_Xamarin.UWP.exe">
       <PackagePath>entrypoint\PDM_Xamarin.UWP.exe</PackagePath>
-      <Modified>2018-04-18T17:13:38.479</Modified>
+      <Modified>2018-04-18T17:35:17.089</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\stud\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -661,7 +661,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\bin\x86\Debug\Core\PDM_Xamarin.UWP.exe">
       <PackagePath>PDM_Xamarin.UWP.exe</PackagePath>
-      <Modified>2018-04-18T17:13:41.956</Modified>
+      <Modified>2018-04-18T17:35:17.609</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

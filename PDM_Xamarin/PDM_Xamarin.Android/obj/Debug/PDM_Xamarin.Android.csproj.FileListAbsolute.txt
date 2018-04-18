@@ -49,3 +49,4 @@ C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\andr
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\Xamarin.Forms.Core.dll.mdb
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
+C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\PDM_Xamarin.Droid.PaginaDetaliiValuta.xaml.g.cs

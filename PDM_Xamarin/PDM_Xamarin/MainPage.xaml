@@ -5,7 +5,7 @@
              x:Class="PDM_Xamarin.MainPage">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
-            <ListView x:Name="listView" HeightRequest="100"/>
+            <ListView x:Name="listView" HeightRequest="100" SeparatorVisibility="Default"/>
             <Button x:Name="button" HeightRequest="60" Text="Incarca Date" />
         </StackLayout>
     </ContentPage.Content>
