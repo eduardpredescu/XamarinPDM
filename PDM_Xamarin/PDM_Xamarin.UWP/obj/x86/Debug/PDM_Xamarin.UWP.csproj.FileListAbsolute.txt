@@ -218,3 +218,6 @@ C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\obj\x86\Debug\qual
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\obj\x86\Debug\PDM_Xamarin.UWP.C_.Users.stud.Desktop.PDM_Xamarin.PDM_Xamarin.PDM_Xamarin.PaginaDetaliiValuta.xaml.g.cs
+C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\obj\x86\Debug\PDM_Xamarin.UWP.C_.Users.stud.Desktop.PDM_Xamarin.PDM_Xamarin.PDM_Xamarin.PaginaConvertor.xaml.g.cs
+C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\obj\x86\Debug\PDM_Xamarin.UWP.C_.Users.stud.Desktop.PDM_Xamarin.PDM_Xamarin.PDM_Xamarin.PaginaDespre.xaml.g.cs

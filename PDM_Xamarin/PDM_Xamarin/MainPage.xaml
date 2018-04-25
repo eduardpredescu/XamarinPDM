@@ -2,10 +2,28 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:PDM_Xamarin"
-             x:Class="PDM_Xamarin.MainPage">
+             x:Class="PDM_Xamarin.MainPage"
+             Title="Curs valutar">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Convertor" Clicked="Convertor_Clicked" Order="Secondary"/>
+        <ToolbarItem Text="Despre" Clicked="Despre_Clicked" Order="Secondary" />
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
-            <ListView x:Name="listView" HeightRequest="100" SeparatorVisibility="Default"/>
+            <ListView x:Name="listView" HeightRequest="100" SeparatorVisibility="Default">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="{Binding Drapel}" />
+                                <Label Text="{Binding Multiplicator}" />
+                                <Label Text="{Binding DenumireValuta, StringFormat='{0} = '}" />
+                                <Label Text="{Binding ValoareMoneda, StringFormat='{0} RON'}" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
             <Button x:Name="button" HeightRequest="60" Text="Incarca Date" />
         </StackLayout>
     </ContentPage.Content>

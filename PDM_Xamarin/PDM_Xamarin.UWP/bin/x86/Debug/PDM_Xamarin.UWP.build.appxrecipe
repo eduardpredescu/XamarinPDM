@@ -485,6 +485,21 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin\eu.png">
+      <PackagePath>eu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin\gb.png">
+      <PackagePath>gb.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin\hu.png">
+      <PackagePath>hu.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin\ro.png">
+      <PackagePath>ro.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin\us.png">
+      <PackagePath>us.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\bin\x86\Debug\PDM_Xamarin.UWP.xr.xml">
       <PackagePath>PDM_Xamarin.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>

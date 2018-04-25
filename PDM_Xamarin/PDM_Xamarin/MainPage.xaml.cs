@@ -11,17 +11,27 @@ namespace PDM_Xamarin
 	{
 		public MainPage()
 		{
-			List<string> listaValute = new List<string>{
-				"1 EUR = 4.7 RON",
-				"1 USD = 3.8 RON",
-				"1 GBP = 6 RON",
-				"1 CAD = 3.5 RON",
-				"1 BGN = 2.3 RON"
+			List<CursValutar> listaValute = new List<CursValutar>{
+				new CursValutar("EUR", 4.5f),
+				new CursValutar("USD", 3.8f),
+				new CursValutar("GBP", 6),
+				new CursValutar("RON", 1),
+				new CursValutar("HUF", 1.4f, 100)
 			};
 			InitializeComponent();
 			var button = this.FindByName<Button>("button");
 			button.Clicked += (sender, e) => listView.ItemsSource = listaValute;
 			listView.ItemSelected += (sender, e) => Navigation.PushAsync(new PaginaDetaliiValuta());
+		}
+
+		private void Convertor_Clicked(object sender, EventArgs e)
+		{
+			Navigation.PushAsync(new PaginaConvertor());
+		}
+
+		private void Despre_Clicked(object sender, EventArgs e)
+		{
+			Navigation.PushAsync(new PaginaDespre());
 		}
 	}
 }

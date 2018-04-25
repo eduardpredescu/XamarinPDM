@@ -50,3 +50,10 @@ C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\andr
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\Xamarin.Forms.Platform.Android.dll.mdb
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\Xamarin.Forms.Xaml.dll.mdb
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\PDM_Xamarin.Droid.PaginaDetaliiValuta.xaml.g.cs
+C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\PDM_Xamarin.Droid.PaginaConvertor.xaml.g.cs
+C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\PDM_Xamarin.Droid.PaginaDespre.xaml.g.cs
+C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\res\drawable\eu.png
+C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\res\drawable\gb.png
+C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\res\drawable\hu.png
+C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\res\drawable\ro.png
+C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\res\drawable\us.png

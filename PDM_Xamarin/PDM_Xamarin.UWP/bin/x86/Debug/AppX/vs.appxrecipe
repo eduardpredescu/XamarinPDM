@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-18T17:35:17.612</Modified>
+      <Modified>2018-04-25T17:28:39.252</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\bin\x86\Debug\PDM_Xamarin.UWP.exe">
       <PackagePath>entrypoint\PDM_Xamarin.UWP.exe</PackagePath>
-      <Modified>2018-04-18T17:35:17.089</Modified>
+      <Modified>2018-04-25T17:28:38.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\stud\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -642,6 +642,26 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-04-18T16:41:16.856</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin\eu.png">
+      <PackagePath>eu.png</PackagePath>
+      <Modified>2011-05-25T22:00:26.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin\gb.png">
+      <PackagePath>gb.png</PackagePath>
+      <Modified>2011-06-23T01:24:58.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin\hu.png">
+      <PackagePath>hu.png</PackagePath>
+      <Modified>2011-06-06T22:56:31.483</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin\ro.png">
+      <PackagePath>ro.png</PackagePath>
+      <Modified>2011-06-15T02:18:29.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin\us.png">
+      <PackagePath>us.png</PackagePath>
+      <Modified>2011-06-15T04:03:12.679</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\bin\x86\Debug\PDM_Xamarin.UWP.xr.xml">
       <PackagePath>PDM_Xamarin.UWP.xr.xml</PackagePath>
       <Modified>2018-04-18T16:59:25.836</Modified>
@@ -657,11 +677,11 @@
     <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-04-18T17:13:41.271</Modified>
+      <Modified>2018-04-25T17:14:22.969</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.UWP\bin\x86\Debug\Core\PDM_Xamarin.UWP.exe">
       <PackagePath>PDM_Xamarin.UWP.exe</PackagePath>
-      <Modified>2018-04-18T17:35:17.609</Modified>
+      <Modified>2018-04-25T17:28:39.250</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

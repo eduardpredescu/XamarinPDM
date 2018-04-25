@@ -16,6 +16,7 @@ Global
 		PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.projitems*{3e5fa43f-cb3a-4d79-a0b0-68947bf6088b}*SharedItemsImports = 4
 		PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.projitems*{93f85cf7-04d7-46a9-ab28-fef35a7a7408}*SharedItemsImports = 4
 		PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.projitems*{d4c67ba4-fa4b-4b5a-be83-3799ba065128}*SharedItemsImports = 13
+		PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.projitems*{fc9160ee-9ae6-4703-8b1d-b02d82cab364}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
