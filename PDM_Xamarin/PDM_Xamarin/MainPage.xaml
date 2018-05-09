@@ -10,6 +10,8 @@
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Orientation="Vertical">
+            <Picker x:Name="datePicker" Title="Select a date" />
+
             <ListView x:Name="listView" HeightRequest="100" SeparatorVisibility="Default">
                 <ListView.ItemTemplate>
                     <DataTemplate>

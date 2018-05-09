@@ -1,11 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+using SQLite;
 
 namespace PDM_Xamarin
 {
+    [Table("CursuriValutare")]
     class CursValutar
     {
+        private int _id;
         private DateTime dataCurs;
         private int multiplicator;
         private string denumireValuta;
@@ -55,6 +56,20 @@ namespace PDM_Xamarin
                 return denumireValuta.Substring(0, 2).ToLower() + ".png";
             }
         }
+
+        [PrimaryKey, AutoIncrement, Column("_id")]
+        public int Id
+        {
+            get
+            {
+                return _id;
+            }
+            set
+            {
+                _id = value;
+            }
+        }
+        [Column("data_curs")]
         public DateTime DataCurs
         {
             get
@@ -68,6 +83,7 @@ namespace PDM_Xamarin
             }
         }
 
+        [Column("multiplicator")]
         public int Multiplicator
         {
             get
@@ -81,6 +97,7 @@ namespace PDM_Xamarin
             }
         }
 
+        [Column("denumire_valuta")]
         public string DenumireValuta
         {
             get
@@ -94,6 +111,7 @@ namespace PDM_Xamarin
             }
         }
 
+        [Column("valoare_moneda")]
         public float ValoareMoneda
         {
             get
