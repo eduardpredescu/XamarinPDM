@@ -1,28 +1,64 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Net.Http;
+using System.Xml;
+using System.IO;
+using System.Globalization;
 using Xamarin.Forms;
 
 namespace PDM_Xamarin
 {
 	public partial class MainPage : ContentPage
 	{
+		List<CursValutar> listaValute;
 		public MainPage()
 		{
-			List<CursValutar> listaValute = new List<CursValutar>{
-				new CursValutar("EUR", 4.5f),
-				new CursValutar("USD", 3.8f),
-				new CursValutar("GBP", 6),
-				new CursValutar("RON", 1),
-				new CursValutar("HUF", 1.4f, 100)
-			};
+			listaValute = new List<CursValutar>();
 			InitializeComponent();
 			var button = this.FindByName<Button>("button");
-			button.Clicked += (sender, e) => listView.ItemsSource = listaValute;
+			button.Clicked += loadData_Clicked;
 			listView.ItemSelected += (sender, e) => Navigation.PushAsync(new PaginaDetaliiValuta());
 		}
+
+		private async void loadData_Clicked(object sender, EventArgs e)
+		{
+			HttpClient httpClient = new HttpClient();
+			Stream fileStream = await httpClient.GetStreamAsync(new Uri("http://www.bnr.ro/nbrfxrates.xml"));
+			XmlReader xmlReader = XmlReader.Create(fileStream);
+			DateTime dataCurs = DateTime.Now;
+
+			while (xmlReader.Read())
+			{
+				if (xmlReader.IsStartElement())
+				{
+					switch (xmlReader.Name)
+					{
+						case "Cube":
+							String data = xmlReader["date"];
+							dataCurs = DateTime.ParseExact(data, "yyyy-MM-dd", CultureInfo.InvariantCulture);
+							break;
+
+						case "Rate":
+							CursValutar cursValutar = new CursValutar();
+							cursValutar.DataCurs = dataCurs;
+							cursValutar.DenumireValuta = xmlReader["currency"];
+							if (xmlReader["multiplier"] != null)
+							{
+								cursValutar.Multiplicator = int.Parse(xmlReader["multiplier"]);
+							}
+							xmlReader.Read();
+							cursValutar.ValoareMoneda = float.Parse(xmlReader.Value);
+							listaValute.Add(cursValutar);
+							break;
+					}
+				}
+			}
+
+
+
+			listView.ItemsSource = listaValute;
+		}
+
 
 		private void Convertor_Clicked(object sender, EventArgs e)
 		{

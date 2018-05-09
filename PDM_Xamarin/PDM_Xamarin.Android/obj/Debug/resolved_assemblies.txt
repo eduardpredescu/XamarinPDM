@@ -23,6 +23,7 @@ C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\andr
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\mscorlib.dll
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.Core.dll
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.dll
+C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.Xml.dll
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.Xml.Linq.dll
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.Runtime.dll
@@ -42,7 +43,6 @@ C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\andr
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.Threading.dll
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.Linq.dll
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
-C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 C:\Users\stud\Desktop\PDM_Xamarin\PDM_Xamarin\PDM_Xamarin.Android\obj\Debug\android\assets\System.Text.RegularExpressions.dll
